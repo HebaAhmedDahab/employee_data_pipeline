@@ -1,0 +1,61 @@
+# Environment variables and sensitive data
+.env
+*.env
+config/database.py
+config/__pycache__/
+
+# Data files - DO NOT upload to GitHub
+data/
+*.csv
+*.parquet
+*.json
+*.xlsx
+*.db
+*.sqlite
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+logs/
+*.log
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Airflow
+airflow/logs/
+airflow/*.db
+airflow/*.pid
+airflow/*.err
+airflow/*.out
+
+# IDEs
+.idea/
+*.iml
