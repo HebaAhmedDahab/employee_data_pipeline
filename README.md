@@ -104,10 +104,6 @@ employee-data-pipeline/
    # On Windows
    venv\Scripts\activate
    
-   # On Mac/Linux
-   source venv/bin/activate
-   ```
-
 3. **Install dependencies**
    ```bash
    pip install -r requirements.txt
@@ -117,8 +113,7 @@ employee-data-pipeline/
    ```bash
    # Copy the example file
    copy .env.example .env  # Windows
-   cp .env.example .env    # Mac/Linux
-   
+      
    # Edit .env with your database settings
    # For Windows Authentication, leave USERNAME and PASSWORD empty
    ```
@@ -126,14 +121,6 @@ employee-data-pipeline/
 ### Configuration
 
 Edit your `.env` file:
-
-```env
-SQL_SERVER=BEBA                    # Your SQL Server name
-SQL_DATABASE=AdventureWorksDW2022  # Database name
-SQL_DRIVER=ODBC Driver 17 for SQL Server
-SQL_USERNAME=                      # Leave empty for Windows Auth
-SQL_PASSWORD=                      # Leave empty for Windows Auth
-```
 
 ---
 
