@@ -336,15 +336,6 @@ This is a learning project. Feel free to:
 
 ---
 
-## 📚 Learning Resources
-
-- [SQL Server Documentation](https://docs.microsoft.com/en-us/sql/sql-server/)
-- [Pandas Documentation](https://pandas.pydata.org/docs/)
-- [Data Engineering Best Practices](https://www.startdataengineering.com/)
-- [Medallion Architecture](https://www.databricks.com/glossary/medallion-architecture)
-
----
-
 ## 🐛 Troubleshooting
 
 ### Connection Issues
@@ -367,25 +358,6 @@ This is a learning project. Feel free to:
 
 ---
 
-## 📄 License
-
-This project is created for educational purposes.
-
----
-
-## 👨‍💻 Author
-
-Created as a learning project for data engineering fundamentals.
-
-**Tech Stack Demonstrated**:
-- Data Pipeline Design
-- ETL Processes
-- Data Quality Management
-- Logging & Monitoring
-- Git Version Control
-
----
-
 ## 🎯 Project Goals Achieved
 
 ✅ Extract data from SQL Server using Python
@@ -397,7 +369,3 @@ Created as a learning project for data engineering fundamentals.
 ✅ Make GitHub-ready with proper documentation
 
 ---
-
-**Need Help?** Check the logs in `logs/` directory or review the code comments for detailed explanations.
-
-**Happy Data Engineering! 🚀**
